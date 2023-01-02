@@ -1,0 +1,192 @@
+body {
+    font-family: 'Chivo Mono', monospace;
+    background-color: #0c0c25;
+    
+}
+
+section {
+    color: white
+}
+
+.bob {
+    background-color: 	#0c0c25;
+    height: 100vh;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    height: 500px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+ul.show{
+    display: block;
+}
+
+li {
+    text-decoration: none;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unknown {
+    margin-left: 110px;
+    margin-bottom: 220px;
+}
+
+.button {
+    background-color: #dda0dd;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.button:hover{
+    background-color: #008080;
+    color: #d2b48c;
+}
+.button:active{
+    background-color: #4169e1;
+    color: #bc8f8f;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+h2{
+    font-size: 50px;
+}
+
+.div-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+#logo{
+    height: 40px;
+    margin: 20px;
+}
+.svg{
+    margin: 15px;
+}
+.svg1{
+    margin: 15px;
+}
+.baz{
+    display: flex;
+    justify-content: space-around;
+    text-decoration-line: none;
+    padding: 60px;
+    color: white;
+   
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    padding: 60px;
+}
+.project1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    box-shadow: 2px 1px  30px ;
+    color: white;
+    align-items: center;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.bar h2{
+    color: white;
+}
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
+.project-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+.project2{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    box-shadow: 2px 1px  30px ;
+    color: white;
+    align-items: center;
+}
+.link1, .link2, .link3{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px;
+    }
+    #logo{
+        display: none;
+    }
+    
+
+}
+
+
+
+
+.hamburger{
+    display: none;
+}
+
+
+@media only screen  and (max-width: 800px){
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 40px;
+        align-self: flex-end;
+    }
+    ul{
+        display: none;
+        background-color: #4169e1;
+        margin: 0px
+    }}
+
+.contact-me, .email{
+    color: white;
+}
+.pic{
+    border-radius: 150px;
+}
