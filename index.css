@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: 'Chivo Mono', monospace;
-    background-color: #0c0c25;
+    background-image: linear-gradient(rgb(3, 5, 14),rgba(3,5,14,1.2),rgba(3,5,14,0.9));
     
 }
 
@@ -13,7 +13,6 @@ section {
 }
 
 .bob {
-    background-color: 	#0c0c25;
     height: 100vh;
     font-size: 40px;
 }
@@ -50,7 +49,7 @@ nav {
 }
 
 .button {
-    background-color: #dda0dd;
+    background-color: #6b1042;
     width: 200px;
     height: 60px;
     border-radius: 40px;
@@ -124,8 +123,12 @@ h2{
 .project{
     height: 250px;
     width: 250px;
-    box-shadow: 2px 1px  30px ;
+    box-shadow: 2px 1px  14px ;
     color: white;
+    
+}
+.project:hover{
+   
 }
 
 .project-container > li {
@@ -143,8 +146,8 @@ h2{
 }
 .project-image{
     margin-top: 1em;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 150px;
 }
 
@@ -200,4 +203,7 @@ h2{
 }
 .pic{
     border-radius: 150px;
+}
+.alpha:hover{
+    font-size: larger;
 }
