@@ -127,9 +127,6 @@ h2{
     color: white;
     
 }
-.project:hover{
-   
-}
 
 .project-container > li {
     display: block;
@@ -192,9 +189,19 @@ h2{
         font-size: 40px;
         align-self: flex-end;
     }
+    
+    #projects{
+        margin-top: 8em;
+    }
+    .project{
+        margin-bottom: 8.5em;
+    }
+    .info{
+        position: absolute;
+        top: 80em;
+    }
     ul{
         display: none;
-        background-color: #4169e1;
         margin: 0px
     }}
 
@@ -205,5 +212,5 @@ h2{
     border-radius: 150px;
 }
 .alpha:hover{
-    font-size: larger;
+    font-size: large;
 }
