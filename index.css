@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Chivo Mono', monospace;
@@ -118,14 +121,7 @@ h2{
     padding: 0;
 }
 
-.project1{
-    height: 250px;
-    width: 250px;
-    box-shadow: 2px 1px  30px ;
-    color: white;
-}
-
-.project2{
+.project{
     height: 250px;
     width: 250px;
     box-shadow: 2px 1px  30px ;
@@ -146,15 +142,22 @@ h2{
     font-weight: 300;
 }
 .project-image{
+    margin-top: 1em;
     width: 150px;
     height: 150px;
     border-radius: 150px;
+}
+
+.project-name{
+    margin-top: .4em;
+    margin-bottom: 1em;
 }
 
 .link1, .link2, .link3{
     text-decoration: none;
     color: white;
 }
+
 @media only screen and (max-width: 1000px){
     .project-container{
         display: flex;
