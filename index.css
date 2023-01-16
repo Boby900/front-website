@@ -196,14 +196,27 @@ h2{
     .project{
         margin-bottom: 8.5em;
     }
-    .info{
-        position: absolute;
-        top: 80em;
+    #about-me{
+        display: inline-block;
     }
+    .info{
+        width: 100%;
+    }
+
+    .picture{
+        margin-top: 5em;
+    }
+
+    .pic{
+        margin: auto;
+        display: block;
+    }
+
     ul{
         display: none;
         margin: 0px
-    }}
+    }
+}
 
 .contact-me, .email{
     color: white;
