@@ -127,7 +127,9 @@ h2{
     color: white;
     
 }
-
+i{
+    color: white;
+}
 .project-container > li {
     display: block;
     flex:0, 0, auto; /* Default */
